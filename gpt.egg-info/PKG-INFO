@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: gpt
+Version: 0.1.0
+Summary: HiveSnow Data Upload Application
+Requires-Python: <3.13,>=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=2.2.2
+Requires-Dist: pypdf2>=3.0.1
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: boto3>=1.34.0
+Requires-Dist: requests>=2.32.3
+Requires-Dist: psutil>=7.0.0
+Requires-Dist: setuptools>=78.1.0
+Requires-Dist: notebook>=7.1.3

@@ -1,0 +1,59 @@
+[project]
+name = "gpt"
+version = "0.1.0"
+description = "HiveSnow Data Upload Application"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    # Core dependencies for your application
+    "pandas>=2.2.2",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.0.1",
+    "boto3>=1.34.0",
+    "requests>=2.32.3",
+    #"torch==2.7.1+cu118",
+    
+    
+    
+    
+    # Development and utilities
+    "psutil>=7.0.0",
+    "setuptools>=78.1.0",
+    
+    # Optional: Keep only if you actually use these
+    # "autogen-agentchat>=0.4.9.2",
+    # "autogen-ext[grpc,mcp,ollama,openai]>=0.4.9.2",
+    # "bs4>=0.0.2",
+    # "ipywidgets>=8.1.5",
+    # "langchain-experimental>=0.3.4",
+    # "langgraph>=0.3.18",
+    # "langgraph-checkpoint-sqlite>=2.0.6",
+    # "langsmith>=0.3.18",
+    # "mcp-server-fetch>=2025.1.17",
+    # "mcp[cli]>=1.5.0",
+    # "openai-agents>=0.0.15",
+    # "playwright>=1.51.0",
+    # "plotly>=6.0.1",
+    # "polygon-api-client>=1.14.5",
+    # "pypdf>=5.4.0",
+    # "semantic-kernel>=1.25.0",
+    # "sendgrid>=6.11.0",
+    # "smithery>=0.1.0",
+    # "speedtest-cli>=2.1.3",
+    # "wikipedia>=1.4.0",
+    "notebook>=7.1.3",
+    
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+
+[tool.setuptools]
+py-modules = ["bigram", "train", "v2"]
+
+
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]

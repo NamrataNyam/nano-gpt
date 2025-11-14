@@ -1,0 +1,9 @@
+bigram.py
+pyproject.toml
+train.py
+v2.py
+gpt.egg-info/PKG-INFO
+gpt.egg-info/SOURCES.txt
+gpt.egg-info/dependency_links.txt
+gpt.egg-info/requires.txt
+gpt.egg-info/top_level.txt
